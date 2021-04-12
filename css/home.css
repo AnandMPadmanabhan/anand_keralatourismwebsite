@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-right{
+    float: right;
+    margin-left: 70%;
+}
+
+.carousel-inner img {
+    width: 1500px;
+    height: 550px;
+    opacity: 0.8;
+  }
+
+.carousel-caption{
+    top: 40%;
+    text-shadow: 3px;
+    text-decoration: honeydew;
+    font-size: 2em; 
+}
+
+#caption{
+    text-align: center;
+    color: indigo;
+}
+
+.content-text{
+    float: left;
+    width:50%;
+    padding: 100px;
+}
+
+#know{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#know:hover{
+    text-decoration-style: solid;
+    background-color: lightskyblue;
+}
+
+#kerala-map{
+    height: 80%;
+    
+}
+
+.content-div{
+    margin-top: 50px;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+  }
+
+#container-images{
+    width:25%;
+    float: left;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#img-caption{
+    text-align: center;
+}
+.image{
+    display: block;
+    width: 100%;
+    height: 250px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(97, 223, 24);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    opacity:0.7;
+  }
+  
+  #container-images:hover .overlay {
+    height: 100%;
+  }
+  
+  .text { 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .content2{
+    margin-top:60px;
+    text-align: center;
+  }
+
+  .content2 p{
+      margin:0;
+  }
+
+  .marquee-row{
+      margin-top: 60px;
+      color: red;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+
+  .footer-text{
+      background-color: beige;
+      padding: 0%;
+      margin-top: 30px;
+  }
+
+  .footer-text p{
+      text-align: center;
+      margin: 0;
+  }

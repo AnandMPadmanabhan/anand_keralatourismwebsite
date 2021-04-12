@@ -1,0 +1,23 @@
+.nav-right{
+  float: right;
+  margin-left: 70%;
+}
+
+.carousel-inner img {
+    width: 1500px;
+    height:640px;
+    opacity: 0.4;
+  }
+
+.container{
+    background-color: rgb(231, 246, 250);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity:0.9;
+    height: 50%;
+    width:30%;
+    margin-left: 35%;
+    position: absolute;
+    top: 20%;
+    left: 0;
+   z-index: 10;
+}
